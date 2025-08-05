@@ -593,3 +593,32 @@ a:hover {
   color: inherit;
   display: block;
 }
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column !important;
+    padding: 1em 1.5em !important;
+    height: auto !important;
+  }
+
+  .nav-links-center {
+    flex-direction: column !important;
+    gap: 0.8em !important;
+    white-space: normal !important;
+    max-width: 100% !important;
+    width: auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .nav-icons-right {
+    position: static !important;
+    margin-top: 1em !important;
+    justify-content: center !important;
+    transform: none !important;
+    width: 100% !important;
+  }
+
+  .nav-links-center a {
+    font-size: 0.95em;
+  }
+}
